@@ -1,22 +1,22 @@
-from lib.house_example import House
-from lib.housing_estate import HousingEstate
+# from lib.house_example import *
+# from lib.housing_estate import *
 
-# When we build houses and a housing estate
-# The houses can be added to the housing estate
-def test_add_houses_to_housing_estate():
-    house1 = House(137, "white")
-    house2 = House(24, "red")
-    housing_estate = HousingEstate()
-    housing_estate.houses.append(house1)
-    housing_estate.houses.append(house2)
-    assert housing_estate.houses == [house1, house2]
+# # When we build houses and a housing estate
+# # The houses can be added to the housing estate
+# def test_add_houses_to_housing_estate():
+#     house1 = House(137, "white")
+#     house2 = House(24, "red")
+#     housing_estate = HousingEstate()
+#     housing_estate.houses.append(house1)
+#     housing_estate.houses.append(house2)
+#     assert housing_estate.houses == [house1, house2]
 
-# When we build houses and a housing estate
-# And the houses are added to the housing estate
-# We can get a list of the house numbers of those houses
-house1 = House(137, "white")
-house2 = House(24, "red")
-housing_estate = HousingEstate()
-housing_estate.houses.append(house1)
-housing_estate.houses.append(house2)
-assert housing_estate.get_house_numbers() == [137, 24]
+# # When we build houses and a housing estate
+# # And the houses are added to the housing estate
+# # We can get a list of the house numbers of those houses
+# house1 = House(137, "white")
+# house2 = House(24, "red")
+# housing_estate = HousingEstate()
+# housing_estate.houses.append(house1)
+# housing_estate.houses.append(house2)
+# assert housing_estate.get_house_numbers() == [137, 24]

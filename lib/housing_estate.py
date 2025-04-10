@@ -16,5 +16,6 @@ housing_estate = HousingEstate()
 housing_estate.houses.append(House(101, "red"))
 housing_estate.houses.append(House(102, "blue"))
 housing_estate.houses.append(House(103, "green"))
+housing_estate.houses.append(House(104, "yellow"))
 
 print(housing_estate.get_house_numbers())
